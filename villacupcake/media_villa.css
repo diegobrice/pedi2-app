@@ -1,0 +1,13 @@
+@media screen and (max-width: 900px) {
+  .catalogo_grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .catalogo_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
