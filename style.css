@@ -1,11 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+/* h1,
+h2 {
+  color: #45aeef;
+  color: #e93f33;
+  color: #f5b233;
+  color: #a1388e;
+  color: #000000;
+  color: #7a7a7a; 
+  color: #f6f6f6; mas claro
+  color: #eeeeee; mas ocuro 
+  font-family: 'Baloo Tamma 2', cursive;
+  font-family: 'Open Sans', sans-serif;
+} */
 
-body {
-  font-family: 'Sansita', sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1,
-h2 {
-  font-family: 'Sriracha', cursive;
+body {
+  background-color: #f6f6f6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px 0;
+  font-family: 'Baloo Tamma 2', cursive;
+  background: #e93f33;
+  background: -webkit-linear-gradient(to right, #e93f33, #a1388e);
+  background: linear-gradient(to right, #e93f33, #a1388e);
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.button {
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #e93f33;
+  background: -webkit-linear-gradient(to right, #e93f33, #a1388e);
+  background: linear-gradient(to right, #e93f33, #a1388e);
+}
+
+.logo {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+span {
+  color: #e93f33;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+.home__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0;
+}
+
+
+.derecha img {
+  width: 80%;
+}
+
+.titulo--principal {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 2.5em;
+}
+
+.subtitulo {
+  font-size: 24px;
+  color: #7a7a7a;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.titulo {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 2em;
+}
+
+.funciona {
+
+  padding: 100px 0;
+  background: url(./borde1.png) #fff;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}
+
+.afiliados {
+  padding: 100px 0;
+}
+
+.contacto {
+  background: white;
+  padding: 100px 0;
+}
+
+h2::after {
+  content: "";
+  width: 75px;
+  height: 5px;
+  background: #e93f33;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 35px;
 }

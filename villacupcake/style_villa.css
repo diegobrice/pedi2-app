@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800&family=Sriracha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800&family=Sriracha&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Sansita', sans-serif;
+  font-family: "Sansita", sans-serif;
   background-size: 400px;
   background-repeat: repeat;
 }
@@ -74,14 +74,13 @@ body {
 
 .contact .left {
   padding-left: 20px;
-  border-left: 8px solid white;
+  border: 1px solid white;
 }
 
 .contact .right {
   padding-left: 20px;
-  border-left: 8px solid white;
+  border: 1px solid white;
 }
-
 
 .contact .left li {
   margin: 10px 0;
