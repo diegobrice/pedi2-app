@@ -19,7 +19,7 @@ h2 {
 }
 
 body {
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -53,6 +53,22 @@ a {
   background: #e93f33;
   background: -webkit-linear-gradient(to right, #e93f33, #a1388e);
   background: linear-gradient(to right, #e93f33, #a1388e);
+}
+
+.button--principal {
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: white;
+  color: #e93f33;
+  font-weight: bold;
+}
+
+.button--secondary {
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid white;
 }
 
 .logo {
@@ -90,13 +106,20 @@ span {
   justify-content: inherit;
 }
 
+.home {
+  background: url(./wave.png) #fff;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .home__container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 50px 0;
+  padding: 50px 0 100px;
 }
 
 
@@ -125,18 +148,79 @@ span {
 
   padding: 100px 0;
   background: url(./borde1.png) #fff;
-  background-position: bottom;
+  background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: 100% 200px;
+  background-size: 50% 100px;
 }
 
 .afiliados {
   padding: 100px 0;
+  background-color: #f6f6f6;
+  background: url(./borde_top_left.png) #f6f6f6;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 50% 100px;
+}
+
+.afiliados__item {
+  height: 400px;
+  border-radius: 10px;
+  width: 300px;
+  display: inline-block;
+  margin: 20px 10px;
+  box-shadow: 0px 0px 5px #c1c1c1;
+}
+
+.plantillas {
+  padding: 100px 0;
+  background: url(./wave3.png), url(./circle_top.png);
+  background-position: bottom, top;
+  background-repeat: no-repeat;
+  background-size: 100% 200px, 100% 100px;
+
+}
+
+.plantillas__item {
+  height: 400px;
+  border-radius: 10px;
+  width: 300px;
+  display: inline-block;
+  margin: 20px 10px;
+  box-shadow: 0px 0px 5px #c1c1c1;
 }
 
 .contacto {
-  background: white;
+  background-color: #f6f6f6;
   padding: 100px 0;
+}
+
+.precios {
+  padding: 100px 0;
+  background-color: #f6f6f6;
+}
+
+.cta {
+  padding: 50px 0;
+  background: url(./wave2@2x.png), linear-gradient(to right, #e93f33, #a1388e);
+  background: url(./wave2@2x.png), -webkit-linear-gradient(to right, #e93f33, #a1388e);
+  background-size: 105% 100%;
+  background-position: -5px 0;
+  color: white;
+  text-align: center;
+  height: 400px;
+}
+
+.cta h3 {
+  margin-top: 100px;
+}
+
+.cta p {
+  margin: 20px 0;
+  font-size: 1.3em;
+}
+
+.cta a {
+  margin: 10px;
 }
 
 h2::after {
@@ -147,4 +231,12 @@ h2::after {
   display: block;
   margin-top: 20px;
   margin-bottom: 35px;
+}
+
+.footer {
+  box-shadow: -5px 0px 15px black;
+  padding: 30px;
+  text-align: center;
+  background: black;
+  color: white;
 }
