@@ -13,7 +13,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="logo_container">
+        <div class="logo__container">
           <div class="logo">
             <i class="fas fa-shopping-cart"></i>
           </div>
@@ -42,17 +42,34 @@
           <p class="subtitulo">
             Con <span>Pedi2.app</span> podras tener tu <b>sitio web</b> para ofrecer todos tus productos.
           </p> 
-          <a href="" class="button">Quiero registrarme</a>
+          <a href="" class="button">Ver precios <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="derecha">
-          <img src="./share.svg" alt="">
+          <img src="./img/online.svg" alt="">
         </div>
     </section>
 
     <section class="funciona">
       <div class="container">
         <h2 class="titulo">¿Como funciona?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
+        <div class="funciona__item">
+          <div class="item__content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
+          </div>
+          <img src="./img/cart.svg" alt="">
+        </div>
+        <div class="funciona__item">
+          <img src="./img/catalogue.svg" alt="">
+          <div class="item__content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
+          </div>
+        </div>
+        <div class="funciona__item">
+          <div class="item__content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
+          </div>
+          <img src="./img/online.svg" alt="">
+        </div>
       </div> 
     </section>
 
@@ -60,19 +77,23 @@
       <div class="container">
         <h2 class="titulo">Negocios afiliados en <span>Pedi2.app</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
-        <div class="afiliados__item"></div>
-        <div class="afiliados__item"></div>
-        <div class="afiliados__item"></div>
+        <div class="afiliados__grid">
+          <div class="afiliados__item"></div>
+          <div class="afiliados__item"></div>
+          <div class="afiliados__item"></div>
+        </div>
       </div> 
     </section>
 
     <section class="plantillas">
       <div class="container">
-        <h2 class="titulo">Podras seleccionar cualquiera de nuestras plantillas</span></h2>
+        <h2 class="titulo">Plantillas listas para trabajar</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
-        <div class="plantillas__item"></div>
-        <div class="plantillas__item"></div>
-        <div class="plantillas__item"></div>
+        <div class="plantillas__grid">
+          <div class="plantillas__item"></div>
+          <div class="plantillas__item"></div>
+          <div class="plantillas__item"></div>
+        </div>
       </div> 
     </section>
 
@@ -80,6 +101,11 @@
       <div class="container">
         <h2 class="titulo">Nuestros precios</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
+        <div class="plantillas__grid">
+          <div class="plantillas__item"></div>
+          <div class="plantillas__item"></div>
+          <div class="plantillas__item"></div>
+        </div>
       </div> 
     </section>
 
@@ -87,24 +113,49 @@
       <div class="container">
         <h3 class="titulo">!Afilitate ahora y recibe 15 dias gratis!</h3>
         <p>Comineza a vender tus productos en linea ya!</p>
-        <a href="" class="button--principal">Registrarme ahora</a>
-        <a href="https://api.whatsapp.com/send?phone=51985956637&text=hola,%20¿qué%20tal%20estás?" class="button--secondary">Necesito mas info</a>
+        <a href="" class="button--principal">Registrarme ahora <i class="fas fa-chevron-right"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=51985956637&text=hola,%20¿qué%20tal%20estás?" class="button--secondary">Necesito mas info <i class="fab fa-whatsapp"></i></a>
       </div> 
     </section>
 
     <section class="contacto">
       <div class="container">
         <h2 class="titulo">Contacto</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aperiam libero iusto. Error non adipisci necessitatibus nostrum cum ipsa asperiores, itaque aliquid amet modi soluta quidem laboriosam perspiciatis ea placeat libero consequuntur incidunt alias! Obcaecati, distinctio? In mollitia exercitationem incidunt velit consequuntur quidem voluptatibus labore nostrum? Perspiciatis deleniti aperiam nisi?</p>
+        <div class="contacto__grid">
+          <div>
+            <div class="logo__container">
+              <div class="logo">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <h1>
+              Pedi2.app
+              </h1>
+            </div>
+            <p>Somos una plataforma de tiendas online para que puedas mostrar tus productos en linea</p>
+          </div>
+          <div class="redes">
+            <p><i class="fas fa-envelope-open-text rrss"></i></p>
+            <p>Escribenos a:</p>
+            <p><strong>contacto@pedi2.app</strong></p>
+          </div>
+          <div class="redes">
+            <p><i class="fab fa-instagram-square rrss"></i></p>
+            <p>Siguenos en instagram:</p>
+            <p><strong>pedi2.app</strong></p>
+          </div>
+        </div>
+        
       </div>  
     </section>
 
     <footer class="footer">
       <div class="container">
         <p>
-          © Copyright <a href=""><span>Pedi2.app</span></a> 
-          Todos los derechos reservados
+          © Copyright Pedi2.app 2020. Todos los derechos reservados
         </p>
+        <p>
+          Desarrollado por <a href="https://twitter.com/diegobrice"><span>@diegobrice</span></a> 🇵🇪
+        </p> 
       </div>
     </footer>
   </body>
