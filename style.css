@@ -105,6 +105,11 @@ a {
   padding: 10px;
 }
 
+.nav li:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
 span {
   color: #e93f33;
   font-weight: 700;
